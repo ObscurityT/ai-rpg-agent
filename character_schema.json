@@ -1,0 +1,56 @@
+{
+    "meta":{
+        "system": "dnd5e",
+        "level": 1,
+        "ability_method": "point_buy",
+        "sourcebooks": ["PHB"],
+        "playstyle": [],
+        "constraints": []
+    },
+    "identity":{
+        "name": "",
+        "lineage":"",
+        "class":"",
+        "subclass": null,
+        "background": "",
+        "alignment": ""
+    },
+    "abilities":{
+        "str":8,
+        "dex":8,
+        "con":8,
+        "int":8,
+        "wis":8,
+        "cha":8
+    },
+    "proficiencies":{
+        "skills":[],
+        "tools": [],
+        "languages": []
+    },
+    "combat":{
+        "hp": 0,
+        "ac": 0,
+        "speed": 30,
+        "attacks": []
+    },
+    "features": [],
+    "spells":{
+        "casting_ability": null,
+        "cantrips": [],
+        "known": [],
+        "prepared": []
+    },
+    "equipment":[],
+    "personality":{
+        "traits":[],
+        "ideals": [],
+        "bonds":[],
+        "flaws": []
+    },
+    "backstory":{
+        "one_liner": "",
+        "short":""
+    },
+    "rule_checks":[]
+}

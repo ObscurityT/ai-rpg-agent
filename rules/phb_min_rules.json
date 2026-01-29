@@ -1,0 +1,62 @@
+{
+    "system": "dnd5e",
+    "sources":["PHB"],
+    "ability_methods": {
+        "point_buy": {
+            "total_points": 27,
+            "min_score": 8,
+            "max_score": 15,
+            "costs":{"8":0,"9":1,"10":2,"11":3,"12":4,"13":5,"14":7,"15":9}
+        }
+    },
+    "lineages": {
+        "Human (Variant)":{"speed": 30},
+        "Elf (High)":{"speed": 30},
+        "Halfling (Lightfoot)":{"speed": 25},
+        "Tiefling":{"speed": 30}
+    },
+    "backgrounds": {
+        "Criminal": {"skills_fixed": ["Deception", "Stealth"], "tools_fixed": ["Thieves' tools"], "languages_fixed": []},
+        "Acolyte": {"skills_fixed": ["Insight", "Religion"], "tools_fixed": [], "languages_fixed_count": 2},
+        "Soldier": {"skills_fixed": ["Athletics", "Intimidation"], "tools_fixed": [], "languages_fixed": []},
+        "Sage": {"skills_fixed": ["Arcana", "History"], "tools_fixed": [], "languages_fixed_count": 2}
+    },
+    "classes":
+    {
+        "Fighter":{
+            "hit_die" : 10,
+            "primary_abilities": ["STR", "DEX", "CON"],
+            "skill_choices_from":["Acrobatics", "Animal Handling", "Athletics", "History", "Insight", "Intimidation", "Perception", "Survival"],
+            "skill_choice_count": 2,
+            "armor_proficiencies":["All armor", "Shields"],
+            "weapon_proficiencies":["Simple weapons", "Martial weapons"],
+            "saving_throws":["STR","CON"]
+        },
+         "Rogue":{
+            "hit_die" : 8,
+            "primary_abilities": ["DEX", "INT"],
+            "skill_choices_from":["Acrobatics", "Athletics", "Deception", "Insight", "Intimidation","Investigation" ,"Perception", "Performance", "Persuasion", "Sleight of Hand", "Stealth"],
+            "skill_choice_count": 4,
+            "armor_proficiencies":["Light armor"],
+            "weapon_proficiencies":["Simple weapons","Hand crossbows" ,"Longswords","Rapiers", "Shortswords"],
+            "saving_throws":["DEX","INT"]
+        },
+         "Wizard":{
+            "hit_die" : 6,
+            "primary_abilities": ["INT", "CON"],
+            "skill_choices_from":["Arcana", "History", "Insight", "Investigation", "Medicine", "Religion"],
+            "skill_choice_count": 2,
+            "armor_proficiencies":[],
+            "weapon_proficiencies":["Dagger", "Darts", "Slings", "Quarterstaffs", "Light crossbow"],
+            "saving_throws":["INT", "WIS"],
+            "spellcasting_ability": "INT",
+            "cantrips_level_1": 3,
+            "spells_known_level_1": 6
+        }
+    },
+    "skills_all":[
+        "Acrobatics", "Animal Handling", "Arcana", "Athletics","Deception", "History", "Insight", "Intimidation",
+        "Investigation", "Medicine", "Nature", "Perception", "Performance", "Persuasion", "Religion", "Sleight of Hand",
+        "Stealth", "Survival"
+    ]
+}
