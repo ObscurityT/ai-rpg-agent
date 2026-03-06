@@ -10,6 +10,7 @@ def main():
     character = None
     
     user_request = input("\nDescribe the character you want: ")
+    
     if user_request.lower() in {"exit", "quit"}:
         print("Goodbye!")
         return
